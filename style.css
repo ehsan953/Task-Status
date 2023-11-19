@@ -1,0 +1,47 @@
+body {
+  /* background-color: khaki; */
+  font-family: sans-serif;
+}
+.table {
+  box-shadow: 1px 1px 10px rgb(208, 204, 204);
+  width: 50%;
+  margin: 40px auto;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px;
+}
+th {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+}
+.div1 {
+  width: 80%;
+  height: 12px;
+  background-color: rgb(220, 217, 217);
+  margin: 10px auto;
+  position: relative;
+}
+
+.circle,
+.circle2,
+.circle3 {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(220, 217, 217);
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -1;
+}
+.circle2 {
+  top: -10px;
+  left: 45%;
+}
+.circle3 {
+  top: -10px;
+  left: 95%;
+}
