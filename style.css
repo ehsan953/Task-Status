@@ -6,7 +6,7 @@ body {
 .table {
   box-shadow: 1px 1px 10px rgb(208, 204, 204);
   width: 50%;
-  margin: 40px auto;
+  margin: 30px auto;
   background-color: white;
   border-collapse: collapse;
 }
@@ -27,7 +27,7 @@ th {
   position: relative;
 }
 
-.circle,
+.circle1,
 .circle2,
 .circle3 {
   width: 32px;
@@ -38,6 +38,7 @@ th {
   top: -10px;
   left: -1;
 }
+
 .circle2 {
   top: -10px;
   left: 45%;
@@ -45,4 +46,144 @@ th {
 .circle3 {
   top: -10px;
   left: 95%;
+}
+.pending-flex {
+  color: rgba(235, 235, 14, 0.895);
+  display: flex;
+  align-items: center;
+}
+.icons-combined {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border: 2px solid rgba(235, 235, 14, 0.895);
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 5px;
+  padding: 2px;
+}
+.pending {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(235, 235, 14, 0.895);
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.pending-circle1 {
+  background-color: rgba(235, 235, 14, 0.895);
+  height: 13px;
+  width: 13px;
+  border: 2px solid white;
+  border-radius: 50%;
+  justify-content: center;
+  margin-right: 5px;
+  padding: 2px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+.running-icon {
+  color: blue;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.blue-loading {
+  width: 40%;
+  height: 5px;
+  background-color: blue;
+  position: absolute;
+  top: 3px;
+}
+.success-icon {
+  color: rgb(7, 149, 7);
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.failed-icon {
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.exclamation-icon {
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.success-loading {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(7, 149, 7);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  /* position: relative; */
+  animation: success 1s linear 1;
+}
+@keyframes success {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.failed-loading {
+  width: 50%;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  top: 3px;
+  /* position: relative; */
+  animation: failed 2s linear 1;
+}
+@keyframes failed {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+}
+.blue-loading {
+  position: relative;
+  animation: run 2s linear 1;
+}
+@keyframes run {
+  /* from {
+    left: 0px;
+  }
+  to {
+    left: 40%px;
+  } */
+  0% {
+    transform: scaleX(0);
+  }
+  40% {
+    transform: scaleX(1);
+  }
+}
+
+.extra {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(7, 149, 7);
+  animation: success 1s linear 1 forwards;
+}
+@keyframes success {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }

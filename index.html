@@ -3,9 +3,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>task 3</title>
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <table class="table">
@@ -18,33 +18,9 @@
       <tr>
         <td colspan="3">
           <div class="div1">
-            <div class="circle">
-              <div
-                style="
-                  height: 25px;
-                  width: 25px;
-                  background-color: rgba(235, 235, 14, 0.895);
-                  border-radius: 50%;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              >
-                <div
-                  style="
-                    background-color: rgba(235, 235, 14, 0.895);
-                    height: 13px;
-                    width: 13px;
-                    border: 2px solid white;
-                    border-radius: 50%;
-                    justify-content: center;
-                    margin-right: 5px;
-                    padding: 2px;
-                    position: relative;
-                    top: 2px;
-                    left: 2px;
-                  "
-                >
+            <div class="circle1">
+              <div class="pending">
+                <div class="pending-circle1">
                   <i
                     class="fa-solid fa-ellipsis"
                     style="color: white; position: relative; top: -1px"
@@ -56,26 +32,9 @@
             <div class="circle3"></div>
           </div>
         </td>
-        <td
-          style="
-            color: rgba(235, 235, 14, 0.895);
-            display: flex;
-            align-items: center;
-          "
-        >
-          <div
-            style="
-              background-color: white;
-              height: 15px;
-              width: 15px;
-              border: 2px solid rgba(235, 235, 14, 0.895);
-              border-radius: 50%;
-              justify-content: center;
-              margin-right: 5px;
-              padding: 2px;
-            "
-          >
-            <i class="fa-solid fa-ellipsis"></i>
+        <td class="pending-flex">
+          <div class="icons-combined">
+            <i class="fa-solid fa-ellipsis" style="font-size: 10px"></i>
           </div>
           Pending
         </td>
@@ -83,29 +42,9 @@
       <tr>
         <td colspan="3">
           <div class="div1">
-            <div
-              style="
-                width: 40%;
-                height: 5px;
-                background-color: blue;
-                position: absolute;
-                top: 3px;
-              "
-            ></div>
-            <div class="circle">
-              <i
-                class="fa-solid fa-arrows-rotate"
-                style="
-                  color: blue;
-                  font-size: 20px;
-                  position: absolute;
-                  top: 5px;
-                  left: 5px;
-                  animation-name: example;
-                  animation-duration: 3s;
-                  animation-timing-function: linear;
-                "
-              ></i>
+            <div class="blue-loading"></div>
+            <div class="circle1">
+              <i class="fa-solid fa-arrows-rotate running-icon"></i>
             </div>
             <div class="circle2"></div>
             <div class="circle3"></div>
@@ -119,50 +58,15 @@
       <tr>
         <td colspan="3">
           <div class="div1">
-            <div
-              style="
-                width: 100%;
-                height: 5px;
-                background-color: rgb(7, 149, 7);
-                position: absolute;
-                top: 3px;
-              "
-            ></div>
-            <div class="circle">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: rgb(7, 149, 7);
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+            <div class="success-loading"></div>
+            <div class="circle1">
+              <i class="fa-solid fa-circle-check success-icon"></i>
             </div>
             <div class="circle2">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: rgb(7, 149, 7);
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+              <i class="fa-solid fa-circle-check success-icon"></i>
             </div>
             <div class="circle3">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: rgb(7, 149, 7);
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+              <i class="fa-solid fa-circle-check success-icon"></i>
             </div>
           </div>
         </td>
@@ -174,17 +78,8 @@
       <tr>
         <td colspan="3">
           <div class="div1">
-            <div class="circle">
-              <i
-                class="fa-solid fa-circle-exclamation"
-                style="
-                  color: red;
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+            <div class="circle1">
+              <i class="fa-solid fa-circle-exclamation exclamation-icon"></i>
             </div>
             <div class="circle2"></div>
             <div class="circle3"></div>
@@ -198,50 +93,15 @@
       <tr>
         <td colspan="3">
           <div class="div1">
-            <div
-              style="
-                width: 100%;
-                height: 5px;
-                background-color: rgb(7, 149, 7);
-                position: absolute;
-                top: 3px;
-              "
-            ></div>
-            <div class="circle">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: rgb(7, 149, 7);
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+            <div class="success-loading"></div>
+            <div class="circle1">
+              <i class="fa-solid fa-circle-check icon success-icon"></i>
             </div>
             <div class="circle2">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: rgb(7, 149, 7);
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+              <i class="fa-solid fa-circle-check success-icon"></i>
             </div>
             <div class="circle3">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: rgb(7, 149, 7);
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+              <i class="fa-solid fa-circle-check success-icon"></i>
             </div>
           </div>
         </td>
@@ -253,38 +113,12 @@
       <tr>
         <td colspan="3">
           <div class="div1">
-            <div
-              style="
-                width: 50%;
-                height: 5px;
-                background-color: red;
-                position: absolute;
-                top: 3px;
-              "
-            ></div>
-            <div class="circle">
-              <i
-                class="fa-solid fa-circle-check"
-                style="
-                  color: red;
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+            <div class="failed-loading"></div>
+            <div class="circle1">
+              <i class="fa-solid fa-circle-check failed-icon"></i>
             </div>
             <div class="circle2">
-              <i
-                class="fa-solid fa-circle-exclamation"
-                style="
-                  color: red;
-                  font-size: 25px;
-                  position: absolute;
-                  top: 3px;
-                  left: 3px;
-                "
-              ></i>
+              <i class="fa-solid fa-circle-exclamation exclamation-icon"></i>
             </div>
             <div class="circle3"></div>
           </div>
@@ -295,5 +129,33 @@
         </td>
       </tr>
     </table>
+
+    <div class="extra"></div>
+
+    <div
+      style="
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        margin: 10px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        style="
+          width: 150px;
+          height: 150px;
+          background-color: yellow;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        Ehsan
+      </div>
+    </div>
   </body>
 </html>
