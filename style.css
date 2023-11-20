@@ -1,6 +1,7 @@
 body {
   /* background-color: khaki; */
   font-family: sans-serif;
+  background-color: grey;
 }
 .table {
   box-shadow: 1px 1px 10px rgb(208, 204, 204);
