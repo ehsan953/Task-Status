@@ -2,6 +2,7 @@ body {
   /* background-color: khaki; */
   font-family: sans-serif;
   background-color: grey;
+  display: flex;
 }
 .table {
   box-shadow: 1px 1px 10px rgb(208, 204, 204);
@@ -186,4 +187,22 @@ th {
   100% {
     transform: scaleX(1);
   }
+}
+.flex-container {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-item {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
